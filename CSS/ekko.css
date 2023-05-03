@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+body{
+    background: #008080;
+}
+
+section{
+    padding: 50px 50px;
+}
+
+.fundo{
+    padding: 25px 25px;
+    border-radius: 10px;
+    background: white;
+}
+
+.champ2{
+    text-align: center;
+    font-size: 30px;
+    color: #008080;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.text a{
+    color: #008080;
+}

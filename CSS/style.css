@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(https://images3.alphacoders.com/808/808986.jpg);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: overlay;
+    padding: 150px 0;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo h1{
+    font-size: 34px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    box-shadow: black 1px 1px 2px;
+    border-radius: 30px;
+    padding: 10px 10px;
+    width: 40%;
+}
+
+.container{
+    padding: 50px 50px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.image img{
+    transform: translate(50%, 0);
+    border-radius: 10px;
+}
+
+.fundo{
+    background: #4169E1;
+}
+
+.text-motive{
+    font-size: 20px;
+    color: white;
+}
+
+.text-motive a{
+    color: white;
+}
+
+.text-champ, .text-champ a{
+    font-size: 20px;
+    color: black;
+}
